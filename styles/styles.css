@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    border: 1px solid green;
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    
+}
+
+.intro-text {
+    text-align: center;
+    font-size: larger;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+    font-weight: 900px; /* This line seems not to be having an impact */
+}
+
+img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.dossier-content {
+    width: 95%;
+    background-color: rgba(35, 27, 33, 0.25);
+    margin: 30px auto;
+    box-shadow: 15px 15px 15px;
+}
